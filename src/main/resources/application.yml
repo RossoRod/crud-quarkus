@@ -1,0 +1,13 @@
+quarkus:
+  datasource:
+    db-kind: mssql
+    username: sa
+    password: Str0ng!Passw0rd
+    jdbc:
+      url: jdbc:sqlserver://localhost:1433;databaseName=DB_CRUD-QUARKUS;encrypt=false
+
+  hibernate-orm:
+    database:
+      generation: update
+    log:
+      sql: true
