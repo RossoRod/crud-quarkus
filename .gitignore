@@ -177,3 +177,4 @@ tmp/
 .apt_generated_test/
 .cache-main
 .scala_dependencies
+.idea
